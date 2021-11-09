@@ -1,0 +1,72 @@
+@import url ('https://fonts.googleapis.com/css2? family = Montserrat & display = swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+  font-size:1.2vw;
+  list-style:none;
+ }
+body{
+  height:100vh;
+  background-image: url(./img/background.png);
+  background-size:cover;
+   background-repeat:no-repeat;
+}
+.logo-jogo{
+  padding:1.5vh 2vw 0 13vw;
+  display:inline-block;
+}
+.logo-jogo img{
+  width:4vw;
+}
+.titulo-ver{
+  display: inline-block;
+  vertical-align: top;
+  padding-top:8vh;
+  text-transform:uppercase;
+}
+nav{
+  display:inline-block;
+  vertical-align:top;
+  padding: 8vh 0 0 25vw;
+}
+li{
+  display:inline;
+  margin-right:1vw;
+  text-transform:uppercase;
+}
+li:hover{
+  cursor:pointer;
+  font-weight:900;
+}
+main{
+  height:97%;
+  background-image: url(./img/geralt.png);
+ background-repeat:no-repeat;
+ background-size:contain;
+ background-position:bottom;
+}
+.logo-witcher{
+  padding:39vh 0 0 37vw;
+       }
+.logo-witcher img{
+  width:19vw;
+}
+.logo-play{
+  
+  padding:3.5vh 0 0 36vw;
+  }
+.logo-play img{
+  width:21vw;
+}
+p{
+width:33vw;
+padding: 12vh 0 0 2vh; 
+font-size:13px ;
+color: #fff;
+vertical-align:left;
+
+
+}
